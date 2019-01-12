@@ -1,6 +1,7 @@
 syntax = "proto3";
 
-package tsdb;
+package platform.tsdb;
+option go_package = "internal";
 
 //========================================================================
 //
@@ -19,12 +20,12 @@ message Tag {
 }
 
 message MeasurementFields {
-  bytes Name = 1;
+  string Name = 1;
   repeated Field Fields = 2;
 }
 
 message Field {
-  bytes Name = 1;
+  string Name = 1;
   int32 Type = 2;
 }
 
