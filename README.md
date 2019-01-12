@@ -2,6 +2,12 @@
 
 # ATTENTION:
 
+**This is a corpse.
+
+Please don't try to animate a corpse.
+
+Animating corpses never goes well.**
+
 Around January 11th, 2019, `master` on this repository will become InfluxDB 2.0 code. The content of `infludata/platform` will be moved to this repository. If you rely on `master`, you should update your dependencies to track the `1.7` branch.
 
 ## An Open-Source Time Series Database
